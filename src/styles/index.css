@@ -48,8 +48,7 @@ nav div {
 
 
 .active {
-	display: block;
-	border-bottom: 7px solid var(--light-green);
+	display: block
 }
 
 /*MAIN BELLOW*/
@@ -70,4 +69,8 @@ main {
 	font: var(--main-font);
 	font-size: 1.9rem;
 	text-align: justify;
+}
+
+.active.nav-btn {
+	border-bottom: 7px solid var(--light-green);
 }

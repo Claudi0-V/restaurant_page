@@ -7,6 +7,7 @@ function createNavBar() {
                 const div = document.createElement('div');
                 let upper = navList[ii].charAt(0).toUpperCase() + navList[ii].slice(1)
                 div.classList.add('nav-btn');
+                if (navList[ii] === "main") div.classList.add('active');
                 div.textContent = `${upper}`;
                 div.setAttribute('data-targetId', `#${navList[ii]}`);
                 nav.append(div)
